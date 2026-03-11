@@ -1,0 +1,35 @@
+{
+  "settings": {
+    "buildNum": {
+      "userValue": 86028
+    },
+    "data_views:fields_excluded_data_tiers": {
+      "userValue": "data_cold, data_frozen"
+    },
+    "dateFormat:tz": {
+      "userValue": "US/Eastern"
+    },
+    "defaultIndex": {
+      "userValue": "537f0c0a-3b04-5c03-8b9c-6eee829e73f8"
+    },
+    "isDefaultIndexMigrated": {
+      "userValue": true
+    },
+    "metaFields": {
+      "userValue": [
+        "_source",
+        "_id",
+        "_index",
+        "_score",
+        "_tier"
+      ]
+    },
+    "observability:logSources": {
+      "userValue": [
+        "*:logs-*-*",
+        "*:logs-*",
+        "*:filebeat-*"
+      ]
+    }
+  }
+}
