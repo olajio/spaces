@@ -1,0 +1,480 @@
+{
+  "data_view": [
+    {
+      "id": "27f75d09-06b4-564d-8022-ea91e773d11c",
+      "namespaces": [
+        "development"
+      ],
+      "title": "dev:filebeat-*"
+    },
+    {
+      "id": "48f9f8ae-a116-5b15-9520-57a2845e4d15",
+      "namespaces": [
+        "development"
+      ],
+      "title": ".kibana_2"
+    },
+    {
+      "id": "69a93a04-12c1-50b0-9caa-3379aaf1545b",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:filebeat*-inframon*"
+    },
+    {
+      "id": "5e1b00bb-712d-5e54-a272-981ce26510a3",
+      "namespaces": [
+        "development"
+      ],
+      "title": ".watcher-history-*"
+    },
+    {
+      "id": "b09665f4-b73b-5c7a-a795-726ae6c7f874",
+      "namespaces": [
+        "development"
+      ],
+      "title": ".watcher*"
+    },
+    {
+      "id": "60cd35ba-e2ec-58ed-adb9-761de3c0b4de",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:filebeat-*-mt*"
+    },
+    {
+      "id": "7687f581-2ebd-563c-b73f-0f7bacc18ed7",
+      "namespaces": [
+        "development"
+      ],
+      "title": ".watches*"
+    },
+    {
+      "id": "129a71a7-23f3-51cd-9ce2-8777f3d15f58",
+      "namespaces": [
+        "development"
+      ],
+      "title": "sdp_tickets"
+    },
+    {
+      "id": "08344e13-7b7f-5e02-acbd-f6dca1fc7e52",
+      "namespaces": [
+        "development"
+      ],
+      "title": "qa:heartbeat-*"
+    },
+    {
+      "id": "44936d20-9f59-540f-b17a-9009363d5fb5",
+      "namespaces": [
+        "development"
+      ],
+      "title": "workflow_job_tracker*"
+    },
+    {
+      "id": "d09c5e5e-4c95-5cdb-804a-13455cd58bc2",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:cost*",
+      "typeMeta": {}
+    },
+    {
+      "id": "f2e5500d-a78d-5ce0-b88e-0ed94fd04756",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:winlogbeat-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "fcdf29ee-404a-5370-b3d4-cf02c3f987c4",
+      "namespaces": [
+        "development"
+      ],
+      "title": "*:metricbeat-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "131e7b31-2ecc-5f64-9128-23fb6bc5f02b",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:heartbeat-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "6a7777e9-a561-5468-8002-2b9b14f08b83",
+      "namespaces": [
+        "development"
+      ],
+      "title": "dev:traces-apm*",
+      "typeMeta": {}
+    },
+    {
+      "id": "5e9f1d45-8388-5201-90ce-b111b35efa0d",
+      "namespaces": [
+        "development"
+      ],
+      "title": "qa:traces-apm*",
+      "typeMeta": {}
+    },
+    {
+      "id": "a5da3536-0e34-5dde-bef1-5b0bd1afb046",
+      "namespaces": [
+        "development"
+      ],
+      "title": "dev:traces-apm*,dev:logs-apm*,dev:metrics-apm*",
+      "typeMeta": {}
+    },
+    {
+      "id": "060079af-e5b0-5b25-bab5-0a9367c6e713",
+      "namespaces": [
+        "development"
+      ],
+      "title": "dev:winlogbeat-*"
+    },
+    {
+      "id": "c98d6395-ef31-5fa4-ae2e-dcc0a66e1f7c",
+      "namespaces": [
+        "development"
+      ],
+      "title": "track_aqrc_jobs"
+    },
+    {
+      "id": "8f6a4f6a-42cb-5d42-94d8-f24de030c453",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:file_perf_tracker*"
+    },
+    {
+      "id": "afd99588-d567-5add-a7d8-f5e423bfa846",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:traces-apm*",
+      "typeMeta": {}
+    },
+    {
+      "id": "76f60a58-8511-563a-a57c-79ac9fb32471",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:logs-apm*",
+      "typeMeta": {}
+    },
+    {
+      "id": "261a694f-7139-5b8a-9680-92648d76f4e7",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:metrics-apm*",
+      "typeMeta": {}
+    },
+    {
+      "id": "cd04f982-6fa8-5386-bcd7-38fe0f4473fd",
+      "namespaces": [
+        "development"
+      ],
+      "title": "client_status",
+      "typeMeta": {}
+    },
+    {
+      "id": "ae42c0bd-c11e-5844-9350-e90e6eb4a84b",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:aws-hedgeserv-log-lz-us-east-2-s3-cloudtrail-logs*"
+    },
+    {
+      "id": "b2c8a72c-d86b-54f2-a4bd-28289a93276e",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:metricbeat-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "067e22d6-0c55-5ef0-9be3-b6003340cbf3",
+      "namespaces": [
+        "development"
+      ],
+      "title": "dev:metricbeat-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "7dcdd3f2-b9cb-5f5a-9660-55efb6aca691",
+      "namespaces": [
+        "development"
+      ],
+      "title": "qa:metricbeat-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "cb4c9d10-f1a2-502e-a7a7-452174c85e74",
+      "namespaces": [
+        "development"
+      ],
+      "title": "dev:metricbeat-*-mt-*-cw",
+      "typeMeta": {}
+    },
+    {
+      "id": "84a9db10-68f8-5300-b816-76bdd56af1d8",
+      "namespaces": [
+        "development"
+      ],
+      "title": "qa:metricbeat-*-mt-*-cw",
+      "typeMeta": {}
+    },
+    {
+      "id": "65ca72a2-ad15-53eb-ab15-fe0f64eacc88",
+      "namespaces": [
+        "development"
+      ],
+      "title": "qa:apm-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "7054a6bc-78c2-5303-87b9-44d599dc7785",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:filebeat-7.8.1-dr-*"
+    },
+    {
+      "id": "c242b51e-9a3e-5cbe-93e6-aa215080e764",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:metricbeat-7.8.1-dr-*"
+    },
+    {
+      "id": "3acc19f8-abb0-5239-9406-d8cb69ae5155",
+      "namespaces": [
+        "development"
+      ],
+      "title": "aqrc_jobs"
+    },
+    {
+      "id": "0a7004b2-febe-5380-922a-640c67fd5b8c",
+      "namespaces": [
+        "development"
+      ],
+      "title": "*:winlogbeat-*"
+    },
+    {
+      "id": "65e83d08-beef-5ba3-b8c6-3b21cf9a8e48",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:metricbeat-*-mt-*-cw",
+      "typeMeta": {}
+    },
+    {
+      "id": "77fda153-860d-5b5a-9be0-9dbe47470731",
+      "namespaces": [
+        "development"
+      ],
+      "title": "dev:apm-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "dd028064-a98a-5de6-b1f5-316311e2ea33",
+      "namespaces": [
+        "development"
+      ],
+      "title": "*:metricbeat-*-mt-*",
+      "typeMeta": {},
+      "name": "*:metricbeat-*-mt-*"
+    },
+    {
+      "id": "5e01dde0-2f6d-54b9-aad3-a053c1b4da9d",
+      "namespaces": [
+        "development"
+      ],
+      "title": "qa:metricbeat-*-mt-*",
+      "typeMeta": {},
+      "name": "qa:metricbeat-*-mt-*"
+    },
+    {
+      "id": "ae07788a-0507-531f-b203-b2016fe91905",
+      "namespaces": [
+        "development"
+      ],
+      "title": "dev:metricbeat-*-mt-*",
+      "typeMeta": {},
+      "name": "dev:metricbeat-*-mt-*"
+    },
+    {
+      "id": "141fd1b9-dcf3-4a61-8a9e-3b262985904a",
+      "namespaces": [
+        "development"
+      ],
+      "title": "dev:sonic-*",
+      "typeMeta": {},
+      "name": "dev:sonic-*"
+    },
+    {
+      "id": "46115083-e5c2-42aa-b699-36bf781675cf",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:sonic-*",
+      "typeMeta": {},
+      "name": "prod:sonic-*"
+    },
+    {
+      "id": "36494d68-684c-4bdc-bdde-0a2458722c77",
+      "namespaces": [
+        "development"
+      ],
+      "title": "qa:sonic-*",
+      "typeMeta": {},
+      "name": "qa:sonic-*"
+    },
+    {
+      "id": "1c4da90c-e1b6-4469-a5f5-a3c6f2e78c8a",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:filebeat-*,qa:filebeat-*,dev:filebeat-*",
+      "typeMeta": {},
+      "name": "filebeat view"
+    },
+    {
+      "id": "b5caa42c-c43d-40b8-af6a-498c19f954c1",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:*",
+      "typeMeta": {},
+      "name": "prod:*"
+    },
+    {
+      "id": "apm_static_data_view_id_development",
+      "namespaces": [
+        "development"
+      ],
+      "title": "*:traces-apm*,*:apm-*,*:logs-apm*,*:apm-*,*:metrics-apm*,*:apm-*",
+      "name": "APM"
+    },
+    {
+      "id": "636c4616-0af0-411b-8a48-c3fd811d27c8",
+      "namespaces": [
+        "development"
+      ],
+      "title": "watcher_schedule*",
+      "name": "watcher_schedule"
+    },
+    {
+      "id": "062903f8-ec5a-5cc9-9277-c760253a933e",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:metricbeat-*-mt-*",
+      "typeMeta": {},
+      "name": "prod:metricbeat-*-mt-*"
+    },
+    {
+      "id": "a6490cd1-4b6c-587e-9988-b089c31a50fa",
+      "namespaces": [
+        "development"
+      ],
+      "title": "*:metricbeat-*-mt-*-cw",
+      "typeMeta": {},
+      "name": "*:metricbeat-*-mt-*-cw"
+    },
+    {
+      "id": "5a68cce2-524a-5449-b955-4d319d162961",
+      "namespaces": [
+        "development"
+      ],
+      "title": "*:apm*",
+      "typeMeta": {},
+      "name": "*:apm*"
+    },
+    {
+      "id": "3a638d02-8f26-4f2a-b3fa-88407c3a4c24",
+      "namespaces": [
+        "development"
+      ],
+      "title": "*:*apm*",
+      "name": "*:*apm*"
+    },
+    {
+      "id": "6da7675e-2f1e-59bf-b17c-657f2bf10ea7",
+      "namespaces": [
+        "development"
+      ],
+      "title": "qa:traces-apm*,qa:logs-apm*,qa:metrics-apm*",
+      "typeMeta": {},
+      "name": "qa:traces-apm*,qa:logs-apm*,qa:metrics-apm*"
+    },
+    {
+      "id": "c0737259-42a9-4dc1-a073-5614a14b62f1",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:traces-apm*,apm-*,logs-apm*,metrics-apm*,apm-*",
+      "name": "prod apm test"
+    },
+    {
+      "id": "72c4f9af-5a1c-50cd-a763-5acff7b7505b",
+      "namespaces": [
+        "development"
+      ],
+      "title": "sdp_amdb",
+      "name": "sdp_amdb"
+    },
+    {
+      "id": "aa0ad35b-e193-4f23-9b27-6b4244fa05f9",
+      "namespaces": [
+        "development"
+      ],
+      "title": "*:filebeat-*-mt-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "4d3bc240-18ef-5fa8-b25a-4897a92fdc6f",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:aws-hedgeserv-log-lz-us-east-2-s3-cloudwatch-logs*",
+      "name": "prod:aws-hedgeserv-log-lz-us-east-2-s3-cloudwatch-logs*"
+    },
+    {
+      "id": "a9cf6e28-46f5-5b73-86bc-d845fdc7539e",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:traces-apm*,prod:logs-apm*,prod:metrics-apm*",
+      "typeMeta": {},
+      "name": "prod:traces-apm*,prod:logs-apm*,prod:metrics-apm*"
+    },
+    {
+      "id": "7088c212-8a1a-5601-9b2e-5fb86641ba28",
+      "namespaces": [
+        "development"
+      ],
+      "title": "*:filebeat-*",
+      "typeMeta": {},
+      "name": "*:filebeat-*"
+    },
+    {
+      "id": "70f83354-47dd-5690-9f4c-cbca15d0fe1d",
+      "namespaces": [
+        "development"
+      ],
+      "title": "qa:filebeat-*",
+      "name": "qa:filebeat-*"
+    },
+    {
+      "id": "78772eb4-0c6f-5df8-bb83-bb865880982c",
+      "namespaces": [
+        "development"
+      ],
+      "title": "prod:filebeat-*",
+      "name": "prod:filebeat-*"
+    }
+  ]
+}
