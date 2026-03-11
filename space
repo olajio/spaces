@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "buildNum": {
+      "userValue": 86028
+    },
+    "isDefaultIndexMigrated": {
+      "userValue": true
+    },
+    "defaultIndex": {
+      "userValue": "94abafb7-737e-429a-bf4d-17686f0478ff"
+    },
+    "observability:logSources": {
+      "userValue": [
+        "*:logs-*-*",
+        "*:logs-*",
+        "*:filebeat-*"
+      ]
+    }
+  }
+}
