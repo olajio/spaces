@@ -1,0 +1,216 @@
+{
+  "ELK-Dev-FE-619-Role": {
+    "cluster": [],
+    "indices": [
+      {
+        "names": [
+          "sdp_amdb",
+          "sdp_tickets",
+          ".watcher-history-*",
+          "sonic-*",
+          "*sonic-*",
+          "*metricbeat-*",
+          "metricbeat-*",
+          "restored-*",
+          "*heartbeat-*",
+          "*apm-*",
+          "partial-*",
+          "traces-apm*",
+          "heartbeat-*",
+          "filebeat-*",
+          "*filebeat-*",
+          "logs-apm*",
+          "apm-*",
+          "metrics-apm*"
+        ],
+        "privileges": [
+          "view_index_metadata",
+          "read",
+          "read_cross_cluster"
+        ],
+        "field_security": {
+          "grant": [
+            "*"
+          ],
+          "except": []
+        },
+        "allow_restricted_indices": false
+      }
+    ],
+    "applications": [
+      {
+        "application": "kibana-.kibana",
+        "privileges": [
+          "feature_apm.read",
+          "feature_canvas.all",
+          "feature_dashboard.download_csv_report",
+          "feature_dashboard.generate_report",
+          "feature_dashboard.minimal_all",
+          "feature_dashboard.minimal_read",
+          "feature_dashboard.store_search_session",
+          "feature_dashboard.url_create",
+          "feature_dev_tools.read",
+          "feature_discover.generate_report",
+          "feature_discover.minimal_all",
+          "feature_discover.minimal_read",
+          "feature_discover.store_search_session",
+          "feature_discover.url_create",
+          "feature_graph.all",
+          "feature_infrastructure.read",
+          "feature_logs.read",
+          "feature_maps.all",
+          "feature_ml.read",
+          "feature_savedObjectsManagement.all",
+          "feature_savedObjectsTagging.all",
+          "feature_uptime.read",
+          "feature_visualize.generate_report",
+          "feature_visualize.minimal_all",
+          "feature_visualize.minimal_read",
+          "feature_visualize.url_create"
+        ],
+        "resources": [
+          "space:devops"
+        ]
+      },
+      {
+        "application": "kibana-.kibana",
+        "privileges": [
+          "feature_apm.read",
+          "feature_canvas.generate_report",
+          "feature_canvas.read",
+          "feature_dashboard.download_csv_report",
+          "feature_dashboard.generate_report",
+          "feature_dashboard.minimal_read",
+          "feature_dashboard.store_search_session",
+          "feature_dashboard.url_create",
+          "feature_dev_tools.read",
+          "feature_discover.generate_report",
+          "feature_discover.minimal_read",
+          "feature_discover.store_search_session",
+          "feature_discover.url_create",
+          "feature_graph.read",
+          "feature_infrastructure.read",
+          "feature_logs.read",
+          "feature_maps.read",
+          "feature_ml.read",
+          "feature_savedObjectsManagement.read",
+          "feature_savedObjectsTagging.all",
+          "feature_uptime.read",
+          "feature_visualize.generate_report",
+          "feature_visualize.minimal_read",
+          "feature_visualize.url_create"
+        ],
+        "resources": [
+          "space:information-technology"
+        ]
+      },
+      {
+        "application": "kibana-.kibana",
+        "privileges": [
+          "feature_apm.read",
+          "feature_canvas.generate_report",
+          "feature_canvas.read",
+          "feature_dashboard.download_csv_report",
+          "feature_dashboard.generate_report",
+          "feature_dashboard.minimal_all",
+          "feature_dashboard.minimal_read",
+          "feature_dashboard.store_search_session",
+          "feature_dashboard.url_create",
+          "feature_dev_tools.read",
+          "feature_discover.generate_report",
+          "feature_discover.minimal_all",
+          "feature_discover.minimal_read",
+          "feature_discover.store_search_session",
+          "feature_discover.url_create",
+          "feature_graph.read",
+          "feature_infrastructure.read",
+          "feature_logs.read",
+          "feature_maps.read",
+          "feature_ml.read",
+          "feature_savedObjectsManagement.all",
+          "feature_savedObjectsTagging.all",
+          "feature_savedQueryManagement.all",
+          "feature_uptime.read",
+          "feature_visualize.generate_report",
+          "feature_visualize.minimal_all",
+          "feature_visualize.minimal_read",
+          "feature_visualize.url_create"
+        ],
+        "resources": [
+          "space:development"
+        ]
+      },
+      {
+        "application": "kibana-.kibana",
+        "privileges": [
+          "feature_apm.read",
+          "feature_canvas.generate_report",
+          "feature_canvas.read",
+          "feature_dashboard.download_csv_report",
+          "feature_dashboard.generate_report",
+          "feature_dashboard.minimal_read",
+          "feature_dashboard.store_search_session",
+          "feature_dashboard.url_create",
+          "feature_dev_tools.read",
+          "feature_discover.generate_report",
+          "feature_discover.minimal_read",
+          "feature_discover.store_search_session",
+          "feature_discover.url_create",
+          "feature_graph.read",
+          "feature_infrastructure.read",
+          "feature_logs.read",
+          "feature_maps.read",
+          "feature_ml.read",
+          "feature_savedObjectsManagement.all",
+          "feature_savedObjectsTagging.all",
+          "feature_uptime.read",
+          "feature_visualize.generate_report",
+          "feature_visualize.minimal_read",
+          "feature_visualize.url_create"
+        ],
+        "resources": [
+          "space:checklist"
+        ]
+      },
+      {
+        "application": "kibana-.kibana",
+        "privileges": [
+          "feature_discover.minimal_read",
+          "feature_discover.url_create",
+          "feature_discover.store_search_session",
+          "feature_discover.generate_report",
+          "feature_logs.read",
+          "feature_infrastructure.read",
+          "feature_apm.minimal_all",
+          "feature_apm.settings_save",
+          "feature_uptime.minimal_all",
+          "feature_uptime.elastic_managed_locations_enabled",
+          "feature_uptime.can_manage_private_locations",
+          "feature_dev_tools.read",
+          "feature_savedObjectsManagement.all",
+          "feature_savedQueryManagement.all",
+          "feature_savedObjectsTagging.all",
+          "feature_dashboard.minimal_read",
+          "feature_dashboard.url_create",
+          "feature_dashboard.store_search_session",
+          "feature_dashboard.generate_report",
+          "feature_dashboard.download_csv_report",
+          "feature_canvas.minimal_read",
+          "feature_canvas.generate_report",
+          "feature_maps.read",
+          "feature_ml.read",
+          "feature_graph.read",
+          "feature_visualize.read"
+        ],
+        "resources": [
+          "space:front-end-dev"
+        ]
+      }
+    ],
+    "run_as": [],
+    "metadata": {},
+    "transient_metadata": {
+      "enabled": true
+    }
+  }
+}
