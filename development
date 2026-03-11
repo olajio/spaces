@@ -1,0 +1,41 @@
+{
+  "settings": {
+    "buildNum": {
+      "userValue": 86028
+    },
+    "isDefaultIndexMigrated": {
+      "userValue": true
+    },
+    "defaultIndex": {
+      "userValue": "a9cf6e28-46f5-5b73-86bc-d845fdc7539e"
+    },
+    "doc_table:legacy": {
+      "userValue": false
+    },
+    "metaFields": {
+      "userValue": [
+        "_source",
+        "_id",
+        "_index",
+        "_score",
+        "_tier"
+      ]
+    },
+    "data_views:fields_excluded_data_tiers": {
+      "userValue": "data_cold, data_frozen"
+    },
+    "observability:enableInspectEsQueries": {
+      "userValue": true
+    },
+    "observability:apmDefaultServiceEnvironment": {
+      "userValue": "prod"
+    },
+    "observability:logSources": {
+      "userValue": [
+        "*:logs-*-*",
+        "*:logs-*",
+        "*:filebeat-*"
+      ]
+    }
+  }
+}
