@@ -1,0 +1,929 @@
+{
+  "data_view": [
+    {
+      "id": "94abafb7-737e-429a-bf4d-17686f0478ff",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "qa:traces-apm*",
+      "typeMeta": {},
+      "name": "qa:traces-apm*"
+    },
+    {
+      "id": "e68cda5d-283c-4784-9cb7-5901657dccc7",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:cisco-ucs*",
+      "typeMeta": {},
+      "name": "cisco ucs view"
+    },
+    {
+      "id": "f21ceee1-5b7b-4aae-a27b-34d31316f6da",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:filebeat-*-mt-*",
+      "typeMeta": {},
+      "name": "prod:filebeat-*-mt-*"
+    },
+    {
+      "id": "763583ac-1c72-4b04-bf50-0e276658a46f",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "alerts_config",
+      "typeMeta": {},
+      "name": "alerts_config"
+    },
+    {
+      "id": "d5610bda-05f3-4663-9ec2-40eeff7b1394",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": ".internal*",
+      "typeMeta": {}
+    },
+    {
+      "id": "8337bce8-c2da-4bcd-ae94-1d3c4560e6c8",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "watcher_schedule*",
+      "name": "watcher_schedule"
+    },
+    {
+      "id": "998d7ba2-5cc1-4a17-8e88-608d445ad30b",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:aws-hedgeserv-log-lz-us-east-2-s3-cloudwatch-logs*",
+      "typeMeta": {},
+      "name": "prod:aws-hedgeserv-log-lz-us-east-2-s3-cloudwatch-logs*"
+    },
+    {
+      "id": "f6bee291-d74a-41b9-b286-b8f7fef3a83d",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "qa:sonic-*",
+      "typeMeta": {},
+      "name": "qa:sonic-*"
+    },
+    {
+      "id": "62028521-7d0a-49df-8fbb-23bc08419a17",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:sonic-*",
+      "typeMeta": {},
+      "name": "prod:sonic-*"
+    },
+    {
+      "id": "7df61934-9c9c-49e0-a89a-f7a17635aff6",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": ".alerts-security.alerts-admin,apm-*-transaction*,auditbeat-*,endgame-*,filebeat-*,logs-*,packetbeat-*,traces-apm*,winlogbeat-*,-*elastic-cloud-logs-*",
+      "typeMeta": {},
+      "name": ".alerts-security.alerts-admin,apm-*-transaction*,auditbeat-*,endgame-*,filebeat-*,logs-*,packetbeat-*,traces-apm*,winlogbeat-*,-*elastic-cloud-logs-*"
+    },
+    {
+      "id": "3314b57e-d7d6-4848-b58c-8dd9ab7d959c",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "temp_yt*"
+    },
+    {
+      "id": "a80b9083-d4b0-4efc-8833-cf5416c5e597",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:mt-alerts*",
+      "name": "prod:mt-alerts*"
+    },
+    {
+      "id": "92301e47-2d81-43e8-8c49-6275978657d6",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": ".kibana_2"
+    },
+    {
+      "id": "58e77860-c6e1-4544-871a-d5c36b6e108d",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "qa:metricbeat-*",
+      "typeMeta": {},
+      "name": "qa:metricbeat-*"
+    },
+    {
+      "id": "bdab5f9f-0a90-4fde-a074-6920102b505e",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "sdp_tickets",
+      "typeMeta": {},
+      "name": "sdp_tickets"
+    },
+    {
+      "id": "7f0ea88a-a573-4dbb-9a17-ede72fcad375",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:cost*",
+      "typeMeta": {},
+      "name": "prod:cost*"
+    },
+    {
+      "id": "f412dcaa-dee0-4f12-b8c5-de6a45c9e149",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": ".kibana_*",
+      "typeMeta": {},
+      "name": ".kibana_*"
+    },
+    {
+      "id": "600295c3-0ee5-4b56-93ce-86c47095ea07",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:filebeat-*-inframon-*",
+      "typeMeta": {},
+      "name": "prod:filebeat-*-inframon-*"
+    },
+    {
+      "id": "babb8de3-d8a1-47f8-bf59-f8daddbbb8ec",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "metricbeat-*"
+    },
+    {
+      "id": "12ae1fbd-2e56-46df-91bf-3f5cd58bf401",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "sdpmt_tickets*",
+      "typeMeta": {},
+      "name": "sdpmt_tickets*"
+    },
+    {
+      "id": "0e431309-3580-4750-adc5-c75138ccabfa",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:filebeat-*-mt*",
+      "typeMeta": {},
+      "name": "prod:filebeat-*-mt*"
+    },
+    {
+      "id": "87b94fb5-37f7-49e3-be84-c1d646f1c35b",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:cost*",
+      "typeMeta": {},
+      "name": "dev:cost*"
+    },
+    {
+      "id": "82563e33-f4df-4d40-87bb-a4552f10c499",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "sdp_amdb",
+      "typeMeta": {},
+      "name": "sdp_amdb"
+    },
+    {
+      "id": "3ac0e6ed-ddaf-4774-a46c-4930aca4e9e5",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "qa:filebeat-*-mt-*",
+      "typeMeta": {},
+      "name": "qa:filebeat-*-mt-*"
+    },
+    {
+      "id": "f7f07193-155f-487d-b3eb-faf1d3f5f77f",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "aqrc_jobs",
+      "typeMeta": {},
+      "name": "aqrc_jobs"
+    },
+    {
+      "id": "6bed94e8-7cac-45c3-8989-cdae085b412d",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "kibana_*",
+      "typeMeta": {}
+    },
+    {
+      "id": "38d5ad1d-5835-44a3-bd7f-6ff5d2ce8f2d",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:metricbeat-*",
+      "typeMeta": {},
+      "name": "prod:metricbeat-*"
+    },
+    {
+      "id": "a1901a3d-299e-4994-8465-1846e10a127b",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "*:apm*",
+      "typeMeta": {}
+    },
+    {
+      "id": "9e6e1031-df22-4f2e-b1ae-dfba962b093c",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "kibana_sample_data_ecommerce"
+    },
+    {
+      "id": "65a2bec9-9017-4130-a0d0-705072080d5f",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:filebeat-*-mt-shd",
+      "typeMeta": {},
+      "name": "dev:filebeat-*-mt-shd"
+    },
+    {
+      "id": "b11ece32-7e5d-46e6-bc8b-2f1d18e5b10e",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "*:metricbeat-*-mt-*",
+      "typeMeta": {},
+      "name": "*:metricbeat-*-mt-*"
+    },
+    {
+      "id": "5568489f-548e-4c23-b9b3-171b10351729",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "qa:metricbeat-*-mt-*",
+      "typeMeta": {},
+      "name": "qa:metricbeat-*-mt-*"
+    },
+    {
+      "id": "8f160f3b-fc77-4fa6-82f0-05d8158ef0aa",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "(synthetics-data-view)*,prod:heartbeat-7*,qa:heartbeat-7*",
+      "typeMeta": {}
+    },
+    {
+      "id": "b6a15012-b2d1-4e9e-9e41-f8e15b667184",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:metricbeat-*-mt-*-cw",
+      "typeMeta": {},
+      "name": "dev:metricbeat-*-mt-*-cw"
+    },
+    {
+      "id": "62e33087-b7b6-4f78-be2c-a24d07df5a71",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "mon:.monitoring-beats-*",
+      "name": "mon:.monitoring-beats-*"
+    },
+    {
+      "id": "f12ee12b-b8e6-4f53-a774-3f3ff805637d",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:f**beat*",
+      "typeMeta": {}
+    },
+    {
+      "id": "341bf9ce-438a-4356-8dd3-f1f0f05a8033",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:filebeat-*",
+      "typeMeta": {},
+      "name": "prod:filebeat-*"
+    },
+    {
+      "id": "85680c07-72ed-4943-b76b-ab1b51783b60",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": ".watcher*",
+      "name": ".watcher*"
+    },
+    {
+      "id": "424b8679-5101-4a29-a076-2680adddc966",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "*:winlogbeat-*",
+      "typeMeta": {},
+      "name": "*:winlogbeat-*"
+    },
+    {
+      "id": "ba7ef782-d75a-43df-aa91-7850c4590ab2",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:traces-apm*,prod:logs-apm*,prod:metrics-apm*,qa:trace-apm*,qa:logs-apm*,qa:metrics-apm,dev:traces-apm*,dev:logs-apm*,dev:metrics-apm*,dev:apm-*",
+      "typeMeta": {},
+      "name": "apm data"
+    },
+    {
+      "id": "01fd4a9b-4b3e-4d01-a5c0-3993df96aae3",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:filebeat-7.8.1-*"
+    },
+    {
+      "id": "0de7b230-5609-422c-b8e4-0d2384730388",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:cisco-ucs",
+      "typeMeta": {},
+      "name": "prod:cisco-ucs"
+    },
+    {
+      "id": "8bf0d2df-a9fc-42a0-b622-a12528ef24c6",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:filebeat-*-mt-*",
+      "typeMeta": {},
+      "name": "dev:filebeat-*-mt-*"
+    },
+    {
+      "id": "589e065a-ef10-49c8-a1bc-54b6a5f4d341",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "qa:filebeat-*",
+      "typeMeta": {},
+      "name": "qa:filebeat-*"
+    },
+    {
+      "id": "5bea7f97-f58e-4562-bd39-0bb940f51ba0",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "qa:metricbeat-*-mt-*-cw",
+      "typeMeta": {}
+    },
+    {
+      "id": "b375d2c0-3e30-4ee4-aa10-a22f252344cb",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:*",
+      "typeMeta": {},
+      "name": "prod:*"
+    },
+    {
+      "id": "3b007ad7-e01a-4649-a7c0-be02e57eb097",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:traces-apm*,prod:logs-apm*,prod:metrics-apm*,qa:traces-apm*,qa:logs-apm*,qa:metrices-apm*,dev:traces-apm*,dev:logs-apm*,dev:metrics-apm*",
+      "typeMeta": {},
+      "name": "apm data"
+    },
+    {
+      "id": "331ba020-34cc-4f18-8bab-af8dd95794ff",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:apm-*",
+      "typeMeta": {},
+      "name": "prod:apm-*"
+    },
+    {
+      "id": "61a8fbf2-6870-4a15-ab0a-733a2a5ff8b4",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "storage_event_filter",
+      "typeMeta": {}
+    },
+    {
+      "id": "107e1883-f3e5-4554-9c55-8b206a15de14",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:filebeat-*,qa:filebeat-*,dev:filebeat-*",
+      "typeMeta": {},
+      "name": "filebeat view"
+    },
+    {
+      "id": "b7d8bdb5-491a-4e22-b16f-3be5197717be",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:metricbeat-*-mt-*",
+      "typeMeta": {},
+      "name": "dev:metricbeat-*-mt-*"
+    },
+    {
+      "id": "1b3835f0-75f5-4ad1-900e-4c797054314d",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "*:filebeat-*-mt-*",
+      "typeMeta": {},
+      "name": "*:filebeat-*-mt-*"
+    },
+    {
+      "id": "f5383019-96f8-4aeb-97cf-570df3bde9f9",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "qa:heartbeat-*"
+    },
+    {
+      "id": "d9c15507-d876-41ca-adcf-3d46a2a7587c",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "cost*",
+      "typeMeta": {}
+    },
+    {
+      "id": "ea67501f-8cc5-43c9-906d-5364482ac36d",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "apm-*"
+    },
+    {
+      "id": "dc1d6988-5b59-4997-8a41-b0a97d93fd17",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:filebeat*-inframon*",
+      "typeMeta": {},
+      "name": "prod:filebeat*-inframon*"
+    },
+    {
+      "id": "447a3d19-ec05-4c58-965c-19f0d914c773",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:sonic-*",
+      "typeMeta": {},
+      "name": "dev:sonic-*"
+    },
+    {
+      "id": "38dc500d-ee69-4dcc-b647-df4fec59faa5",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:traces-apm*,dev:logs-apm*,dev:metrics-apm*,dev:apm-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "03eafdcf-ac00-4e6f-82c3-4fc638a38500",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:filebeat-7.13**",
+      "typeMeta": {}
+    },
+    {
+      "id": "a96b340e-30e9-4496-9244-8af664552ff7",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:temp*"
+    },
+    {
+      "id": "111eddb8-e972-4ed1-92c5-ed6f8bbdc9f5",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:filebeat-scripts-*",
+      "typeMeta": {},
+      "name": "prod:filebeat-scripts-*"
+    },
+    {
+      "id": "e60951ee-434d-475f-b3ed-f288dcf78b0c",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:winlogbeat-*",
+      "typeMeta": {},
+      "name": "prod:winlogbeat-*"
+    },
+    {
+      "id": "2e76f531-e980-4590-aaac-ab807cfc7c02",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:file_perf_tracker*"
+    },
+    {
+      "id": "3bce8ac0-dfdc-46ee-8bfa-d7cbc27a08a7",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:metricbeat-*",
+      "typeMeta": {},
+      "name": "dev:metricbeat-*"
+    },
+    {
+      "id": "1a9c5ac7-ba1b-4e0a-8f06-63ad1096d8fa",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "mon:filebeat-*",
+      "name": "mon:filebeat-*"
+    },
+    {
+      "id": "d9b73047-7e78-43ea-b1c9-6cd38d273662",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "mon:.monitoring-es-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "9affaeff-89dd-4bdb-83df-60b32c7b271f",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": ".watcher-history-*",
+      "typeMeta": {},
+      "name": ".watcher-history-*"
+    },
+    {
+      "id": "b36d9c69-aa1b-46f8-bca6-0029a91f6a10",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "*:traces-apm*,*:apm-*,*:logs-apm*,*:apm-*,*:metrics-apm*,*:apm-*",
+      "name": "APM"
+    },
+    {
+      "id": "459ad561-9b79-480b-a2b6-e905cb86a167",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "workflows",
+      "typeMeta": {}
+    },
+    {
+      "id": "665245f5-ac49-4472-83bb-787b2eba9fa8",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "*:metricbeat-*",
+      "typeMeta": {},
+      "name": "*:metricbeat-*"
+    },
+    {
+      "id": "4c59e864-86ed-4f43-b29a-aaf68dcd25d7",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "client_status",
+      "typeMeta": {}
+    },
+    {
+      "id": "fdb6552b-f9b2-41b0-83f4-54204fbd5d1c",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:lambda_logs_instances_3",
+      "name": "dev:lambda_logs_instances_3"
+    },
+    {
+      "id": "95a59690-66c4-47d6-9156-5fa291510155",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:filebeat-7.8.1-dr-*"
+    },
+    {
+      "id": "72cc33b3-e7bb-44da-86ff-cc8d897bcfa6",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:traces-apm*",
+      "typeMeta": {}
+    },
+    {
+      "id": "aad00964-fbe6-4b68-83e7-4a0a21c5b922",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:prometheus-alerts*",
+      "name": "dev:prometheus-alerts"
+    },
+    {
+      "id": "2ea9b03d-c1fa-4af2-b342-eb8065ba965f",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:traces-apm*",
+      "typeMeta": {},
+      "name": "dev:traces-apm*"
+    },
+    {
+      "id": "c23e8b4c-ef34-421c-8857-f1c23e34c587",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:filebeat-*",
+      "typeMeta": {},
+      "name": "dev:filebeat-*"
+    },
+    {
+      "id": "07dff1dc-b47a-4ec9-b46a-449dcb98dfe7",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "qa:traces-apm*,qa:logs-apm*,qa:metrics-apm*",
+      "typeMeta": {},
+      "name": "qa:traces-apm*,qa:logs-apm*,qa:metrics-apm*"
+    },
+    {
+      "id": "122cfd5e-d072-47f2-b3cf-b3229436e6ce",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:metricbeat-*-dr",
+      "typeMeta": {},
+      "name": "prod:metricbeat-*-dr"
+    },
+    {
+      "id": "72ce356f-2cb0-4917-9378-7c6589db8c91",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "*:filebeat-*",
+      "typeMeta": {},
+      "name": "*:filebeat-*"
+    },
+    {
+      "id": "c597ca4e-72d3-4bca-9dc0-1feea7fb90a8",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:filebeat-*-inframon*",
+      "name": "prod:filebeat-*-inframon*"
+    },
+    {
+      "id": "7cda9682-5177-4abc-b93d-a508f1dd51f4",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "sdp*_tickets*",
+      "name": "sdp*_tickets"
+    },
+    {
+      "id": "785b92f2-8ac8-40c0-be4c-f899a2307c10",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "sdpmt_amdb*",
+      "typeMeta": {},
+      "name": "sdpmt_amdb*"
+    },
+    {
+      "id": "683c86b9-210d-4f89-9c4b-0ebdd5750c7c",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "watcher-execution",
+      "typeMeta": {},
+      "name": "watcher-execution"
+    },
+    {
+      "id": "201a284e-1ca9-4db4-b290-008351a3820d",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "inventory",
+      "typeMeta": {},
+      "name": "inventory"
+    },
+    {
+      "id": "4d178abc-f462-42d0-bcb6-491f62ef73f0",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "track_aqrc_jobs"
+    },
+    {
+      "id": "0dd38686-e9ec-4b30-9ead-4c180f781946",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "*:metricbeat-*-mt-*-cw",
+      "typeMeta": {},
+      "name": "*:metricbeat-*-mt-*-cw"
+    },
+    {
+      "id": "0352a1d1-ced7-4afb-8898-ef2fd8584c47",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "workflow_job_tracker*",
+      "typeMeta": {},
+      "name": "workflow_job_tracker*"
+    },
+    {
+      "id": "b5a3b1af-d1a7-4ada-863d-a683a6379c0e",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:metricbeat-*-mt-*-cw",
+      "typeMeta": {},
+      "name": "prod:metricbeat-*-mt-*-cw"
+    },
+    {
+      "id": "c28e4eb3-5ceb-499a-b93b-78cec1126a56",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:metricbeat-7.8.1-dr-*"
+    },
+    {
+      "id": "560650db-019c-4dbe-844d-580658ed8561",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:aws-hedgeserv-log-lz-us-east-2-s3-cloudtrail-logs*",
+      "name": "prod:aws-hedgeserv-log-lz-us-east-2-s3-cloudtrail-logs*"
+    },
+    {
+      "id": "531f85eb-43b1-4128-8a9c-94010b0eb6b8",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:metricbeat-*-mt-*",
+      "typeMeta": {},
+      "name": "prod:metricbeat-*-mt-*"
+    },
+    {
+      "id": "ed36934e-9dab-4a97-85ba-0e50954049b7",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:metricbeat-*,qa:metricbeat-*,dev:metricbeat-*",
+      "typeMeta": {},
+      "name": "metricbeat view"
+    },
+    {
+      "id": "80502b9f-0917-4da6-a84e-9c49340375a8",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "qa:apm-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "045491bd-df9f-4d33-9c41-06f56d804125",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:traces-apm*,dev:logs-apm*,dev:metrics-apm*",
+      "typeMeta": {}
+    },
+    {
+      "id": "9cff87ba-51a6-48ac-80d5-0963bc102d64",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:metrics-apm*",
+      "typeMeta": {}
+    },
+    {
+      "id": "505f0126-ccc8-4207-bb84-ebf44838b918",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:logs-apm*",
+      "typeMeta": {}
+    },
+    {
+      "id": "87d9e47a-fc7d-4edb-ba46-50b6cccc4b0a",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:heartbeat-*",
+      "typeMeta": {},
+      "name": "prod:heartbeat-*"
+    },
+    {
+      "id": "2870522f-0bd6-4da6-ad7c-c32d9dffcdff",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": ".logs-deprecation.elasticsearch-default",
+      "typeMeta": {}
+    },
+    {
+      "id": "12ed358b-85c1-420a-b696-ccbd58734905",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "watcher_status*",
+      "typeMeta": {},
+      "name": "watcher_status*"
+    },
+    {
+      "id": "b38339c3-acf2-4a3a-88d3-a6c0610a9c2e",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "track_aqrc_jobs*"
+    },
+    {
+      "id": "7db87a6a-b525-40b1-8587-d8c32861ef9d",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:winlogbeat-*"
+    },
+    {
+      "id": "4b80bebe-209e-44a8-b0c5-68d13bce3b3f",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": ".watches*",
+      "typeMeta": {},
+      "name": ".watches*"
+    },
+    {
+      "id": "36d5a9a0-b2b5-44c3-a998-3cf9cf9fbc41",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "test_csv*",
+      "typeMeta": {},
+      "name": "test_csv"
+    },
+    {
+      "id": "3956fa11-2a8c-4711-9e12-3d27f684795b",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:filebeat-*-inframon*",
+      "name": "dev:filebeat-*-inframon*"
+    },
+    {
+      "id": "c5bb2734-5bcd-44d3-98fc-ce4d90d4beb3",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "ftp_reference_index"
+    },
+    {
+      "id": "db918690-11d6-433d-bead-ca8550a8b6fb",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "dev:apm-*",
+      "typeMeta": {}
+    },
+    {
+      "id": "78a55763-d503-4a82-a3a8-3cfd3bf6399d",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "mba_idx*"
+    },
+    {
+      "id": "ab83689e-2e89-4c88-8706-706f432fbdb9",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "prod:traces-apm*,prod:logs-apm*,prod:metrics-apm*",
+      "typeMeta": {},
+      "name": "prod:traces-apm*,prod:logs-apm*,prod:metrics-apm*"
+    },
+    {
+      "id": "473a20db-07e2-4d65-8dbc-457feb4d2328",
+      "namespaces": [
+        "front-end-dev"
+      ],
+      "title": "*:traces-apm*,*:apm-*,*:logs-apm*,*:apm-*,*:metrics-apm*,*:apm-*",
+      "name": "APM"
+    }
+  ]
+}
