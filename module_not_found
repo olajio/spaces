@@ -1,0 +1,19 @@
+HSE-NYC-MAC-142:hs_ccs_space_mgmt_migrated oolajide$ python3 extract_and_deploy.py --source_space "development" --target_space "front-end-dev" --object_type "dashboard" --action "new" --elk_cluster "ccs" --object_name "[NOMAD] Trebek K8s events"
+
+
+We detected the operating system is NOT windows.
+
+
+Traceback (most recent call last):
+  File "/Users/oolajide/general_scripts/hs_ccs_space_mgmt_migrated/extract_and_deploy.py", line 9, in <module>
+    from gateways.git_gateway import GitGateway
+  File "/Users/oolajide/general_scripts/hs_ccs_space_mgmt_migrated/gateways/git_gateway.py", line 2, in <module>
+    from git import Repo
+ModuleNotFoundError: No module named 'git'
+HSE-NYC-MAC-142:hs_ccs_space_mgmt_migrated oolajide$ pip3 install git
+Defaulting to user installation because normal site-packages is not writeable
+ERROR: Could not find a version that satisfies the requirement git (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: /Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip
+ERROR: No matching distribution found for git
